@@ -1,16 +1,5 @@
 # 📦 GCP Retail Inventory DWH - Data Pipeline Automatizado
 
-[![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)]()
-[![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)]()
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)]()
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-
-**Creado por:** Angel Teodoro Jaramillo Sulca  
-**Rol:** Data Engineer  
-**Contacto:** [LinkedIn](https://www.linkedin.com/in/angeljarads/) | [GitHub](https://github.com/Angeljs094)
-
----
-
 ## 📖 Contexto del Proyecto
 La gestión de inventarios (productos, precios y stock) generaba archivos diarios en formato JSON almacenados de manera aislada en la nube. El equipo de analítica enfrentaba grandes desafíos para consultar estos archivos, y cargarlos manualmente en la base de datos transaccional (PostgreSQL) generaba cuellos de botella que degradaban el rendimiento de los sistemas operativos diarios. Además, los datos crudos presentaban inconsistencias en sus tipos de datos.
 
@@ -58,3 +47,16 @@ Datos de inventario consolidados exitosamente, mostrando los registros tipificad
   * `config.py`: Variables de entorno y conexiones.
   * `etl_tasks.py`: Funciones modulares de extracción y transformación con Pandas.
 * `requirements.txt`: Dependencias del entorno de Python.
+
+---
+## Stack Tecnologicos
+[![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)]()
+[![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)]()
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
+
+**Creado por:** Angel Teodoro Jaramillo Sulca  
+**Rol:** Data Engineer  
+**Contacto:** [LinkedIn](https://www.linkedin.com/in/angeljarads/) | [GitHub](https://github.com/Angeljs094)
+
+---
