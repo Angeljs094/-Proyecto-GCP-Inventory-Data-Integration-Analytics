@@ -1,0 +1,15 @@
+# Core
+apache-airflow>=2.7.0
+pandas>=2.0.0
+
+# Proveedores de Airflow
+apache-airflow-providers-google
+apache-airflow-providers-postgres
+
+# Clientes de Google Cloud
+google-cloud-bigquery
+google-cloud-storage
+
+# Dependencias adicionales para DataFrames y BQ
+db-dtypes
+pyarrow

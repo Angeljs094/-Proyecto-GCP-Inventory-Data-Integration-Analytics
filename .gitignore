@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+env/
+venv311/
+.env
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos pesados o irrelevantes para el repo
+*.zip
+*.rar
+*.csv
+*.json
+.DS_Store
